@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PW Solicitud de Empleo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        header{
+            color: #ffffff;
+        }
+        body{
+            color: #ffffff;
+        }
+    </style>
+
+</head>
+<body background="images/Background.jpg">
+<div class="card-header" align="center">
+    <header >
+    <h2> INFORMACION DEL USUARIO</h2>
+    </header>
+</div>
+<div class="card-body" align="center">
+<form role="form" method="post" action="compruebausuario.php">
+     <div class="container" align="center">
+        <label for="email">Correo electronico: </label>
+        <br><input type="email" class="form-control" id="email" name="email">
+     </div>
+
+    <div class="container" align="center">
+        <label for="pwd">Contraseña: </label>
+        <br><input type="password" class="form-control" id="pwd" name="pwd" >
+    </div>
+
+    <div class="container-fluid" align="center">
+        <label><input type="checkbox"> Recuerdame </label>
+    </div>
+
+    <div class="container-fluid" align="center">
+        <button type="submit" class="btn btn-success" >Ingresar</button>
+    </div>
+</form>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
